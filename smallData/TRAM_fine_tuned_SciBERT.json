@@ -1,0 +1,449 @@
+[
+  {
+    "text": "Anchor has used cmd.exe to run its self deletion routine.",
+    "label": "T1059"
+  },
+  {
+    "text": "Zeus Panda can launch an interface where it can execute several commands on the victim\u2019s PC.",
+    "label": "T1059"
+  },
+  {
+    "text": "Chimera has used the Windows Command Shell and batch scripts for execution on compromised hosts.",
+    "label": "T1059"
+  },
+  {
+    "text": "Cuba has used cmd.exe /c and batch files for execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "MechaFlounder has the ability to run commands on a compromised host.",
+    "label": "T1059"
+  },
+
+  {
+    "text": "PoisonIvy uses the Camellia cipher to encrypt communications.",
+    "label": "T1573"
+  },
+  {
+    "text": "RTM tries to add a Registry Run key under the name \"Windows Update\" to establish persistence.",
+    "label": "T1547"
+  },
+  {
+    "text": "gh0st RAT uses RC4 and XOR to encrypt C2 traffic.",
+    "label": "T1573"
+  },
+  {
+    "text": "The loader component is executed via RUNDLL32.EXE",
+    "label": "T1218"
+  },
+  {
+    "text": "EVILNUM can download and upload files to the victim's computer.",
+    "label": "T1105"
+  },
+  {
+    "text": "Honeybee gathers a list of processes using the tasklist command and then is sent back to the control server.",
+    "label": "T1057"
+  },
+  {
+    "text": "Bankshot writes data into the Registry key HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Pniumj.",
+    "label": "T1112"
+  },
+  {
+    "text": "A handle to an existing victim process is first created with native Windows API calls such as OpenThread.",
+    "label": "T1055"
+  },
+  {
+    "text": "Smoke Loader scans for files named \"logins.json\" to parse and collect credentials.",
+    "label": "T1552"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  { "text": "Kazuar can delete files.", "label": "T1070" },
+  {
+    "text": "Cobalt Strike can exploit vulnerabilities such as MS14-058.",
+    "label": "T1068"
+  },
+  {
+    "text": "QakBot can send stolen information to C2 nodes including passwords, accounts, and emails.",
+    "label": "T1041"
+  },
+  {
+    "text": "Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.",
+    "label": "T1083"
+  },
+  {
+    "text": "Ramsay has created Registry Run keys to establish persistence.",
+    "label": "T1547"
+  },
+  {
+    "text": "MechaFlounder has the ability to run commands on a compromised host.",
+    "label": "T1059"
+  },
+  {
+    "text": "Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of Unix Shell while Windows installations include the Windows Command Shell and PowerShell.",
+    "label": "T1059"
+  },
+  {
+    "text": "Machete has embedded malicious macros within spearphishing attachments to download additional files.",
+    "label": "T1059"
+  },
+  {
+    "text": "It also has a command to spawn a command shell.",
+    "label": "T1059"
+  },
+  {
+    "text": "ShimRat can be issued a command shell function from the C2.",
+    "label": "T1059"
+  },
+  {
+    "text": "MoleNet can use PowerShell to set persistence.",
+    "label": "T1059"
+  },
+  {
+    "text": "Crimson has the ability to execute commands with the COMSPEC environment variable.",
+    "label": "T1059"
+  },
+  {
+    "text": "VBA enables documents to contain macros used to automate the execution of tasks and other functionality on the host.",
+    "label": "T1059"
+  },
+  {
+    "text": "Gorgon Group malware can use PowerShell commands to download and execute a payload and open a decoy document on the victim\u2019s machine.",
+    "label": "T1059"
+  },
+  {
+    "text": "Matryoshka is capable of providing Meterpreter shell access.",
+    "label": "T1059"
+  },
+  {
+    "text": "KGH_SPY has the ability to set a Registry key to run a cmd.exe command.",
+    "label": "T1059"
+  },
+  {
+    "text": "These commands are also executed when the loadconfig command is issued",
+    "label": "T1059"
+  },
+  {
+    "text": "Fox Kitten has used a Perl reverse shell to communicate with C2.",
+    "label": "T1059"
+  },
+  {
+    "text": "Machete's main backdoor Machete is also written in Python.",
+    "label": "T1059"
+  },
+  {
+    "text": "Scripts can be run from the command-line via osascript /path/to/script or osascript -e \"script here\".",
+    "label": "T1059"
+  },
+  {
+    "text": "APT37 executes shellcode and a VBA script to decode Base64 strings.",
+    "label": "T1059"
+  },
+  {
+    "text": "MoleNet can execute commands via the command line utility.",
+    "label": "T1059"
+  },
+  {
+    "text": "Bundlore can use AppleScript to inject malicious JavaScript into a browser.",
+    "label": "T1059"
+  },
+  {
+    "text": "REvil has used PowerShell to delete volume shadow copies and download files.",
+    "label": "T1059"
+  },
+  {
+    "text": "The threat actors used the appcmd command-line tool to unlock and disable the default logging component on the server (systsm.webServer/httplogging) and then delete existing logs from the system (see Figure 4)",
+    "label": "T1059"
+  },
+  {
+    "text": "OSX_OCEANLOTUS.D uses Word macros for execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "VBA is an event-driven programming language built into Microsoft Office, as well as several third-party applications.",
+    "label": "T1059"
+  },
+  {
+    "text": "PoetRAT was executed with a Python script and worked in conjunction with additional Python-based post-exploitation tools.",
+    "label": "T1059"
+  },
+  {
+    "text": "Molerats used various implants, including those built with JS, on target machines.",
+    "label": "T1059"
+  },
+  {
+    "text": "Exaramel for Windows has a command to execute VBS scripts on the victim\u2019s machine.",
+    "label": "T1059"
+  },
+  {
+    "text": "KEYMARBLE can execute shell commands using cmd.exe.",
+    "label": "T1059"
+  },
+  {
+    "text": "Kazuar uses /bin/bash to execute commands on the victim\u2019s machine.",
+    "label": "T1059"
+  },
+  {
+    "text": "Mivast has the capability to open a remote shell and run basic commands.",
+    "label": "T1059"
+  },
+  {
+    "text": "The attackers orchestrate attacks using batch or PowerShell scripts that are executed, with the help of domain controllers, on any machine the DC can reach.",
+    "label": "T1059"
+  },
+  {
+    "text": "Operation Wocao has used a VBScript to conduct reconnaissance on targeted systems.",
+    "label": "T1059"
+  },
+  {
+    "text": "Get2 has the ability to run executables with command-line arguments.",
+    "label": "T1059"
+  },
+  {
+    "text": "The malware basically provides a remote CMD/PowerShell terminal for the attackers, enabling them to execute any scripts/commands and receive the result via HTTP requests",
+    "label": "T1059"
+  },
+  {
+    "text": "njRAT has executed PowerShell commands via auto-run registry key persistence.",
+    "label": "T1059"
+  },
+  {
+    "text": "Turla has used IronPython scripts as part of the IronNetInjector toolchain to drop payloads.",
+    "label": "T1059"
+  },
+  {
+    "text": "FIN4 has used VBA macros to display a dialog box and collect victim credentials.",
+    "label": "T1059"
+  },
+  {
+    "text": "Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer .",
+    "label": "T1059"
+  },
+  {
+    "text": "Anchor can execute payloads via shell scripting.",
+    "label": "T1059"
+  },
+  {
+    "text": "GravityRAT executes commands remotely on the infected host.",
+    "label": "T1059"
+  },
+  {
+    "text": "Both create one thread, and each thread is responsible for either downloading and executing the file or running a command line program in the terminal:   Figure 28.\u00a0Commands used for downloading and executing, and running a command in terminal   Figure 29.\u00a0Commands used in uploading and downloading file Figure 30",
+    "label": "T1059"
+  },
+  { "text": "POWRUNER is written in PowerShell.", "label": "T1059" },
+  {
+    "text": "AppleScripts can also be executed as plain text shell scripts by adding #!/usr/bin/osascript to the start of the script file.",
+    "label": "T1059"
+  },
+  {
+    "text": "JSS Loader can download and execute JavaScript files.",
+    "label": "T1059"
+  },
+  {
+    "text": "A module in CozyCar allows arbitrary commands to be executed by invoking C:\\Windows\\System32\\cmd.exe.",
+    "label": "T1059"
+  },
+  {
+    "text": "Magic Hound has used the command-line interface.",
+    "label": "T1059"
+  },
+  {
+    "text": "PLEAD has the ability to execute shell commands on the compromised host.",
+    "label": "T1059"
+  },
+  {
+    "text": "BRONZE BUTLER has used VBS and VBE scripts for execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "Access remote objects interactively from the pupy shell and get auto-completion of remote attributes",
+    "label": "T1059"
+  },
+  {
+    "text": "menuPass uses PowerSploit to inject shellcode into PowerShell.",
+    "label": "T1059"
+  },
+  {
+    "text": "Remote shells on Unix & Windows clients have a real tty with all keyboard signals working just like an SSH shell",
+    "label": "T1059"
+  },
+  {
+    "text": "PoetRAT has called cmd through a Word document macro.",
+    "label": "T1059"
+  },
+  {
+    "text": "APT29 has written malware variants in Visual Basic.",
+    "label": "T1059"
+  },
+  {
+    "text": "APT37 has used Python scripts to execute payloads.",
+    "label": "T1059"
+  },
+  {
+    "text": "InvisiMole can use a JavaScript file as part of its execution chain.",
+    "label": "T1059"
+  },
+  {
+    "text": "Conti can utilize command line options to allow an attacker control over how it scans and encrypts files.",
+    "label": "T1059"
+  },
+  {
+    "text": "Lazarus Group has used VBScript to gather information about a victim machine.",
+    "label": "T1059"
+  },
+  {
+    "text": "JSS Loader can download and execute VBScript files.",
+    "label": "T1059"
+  },
+  {
+    "text": "Though this is unsophisticated, a remote shell does provide a highly flexible and powerful means of remote access in the hands of a skilled attacker",
+    "label": "T1059"
+  },
+  {
+    "text": "The attackers typically distribute Netwalker ransomware with the use of a reflective PowerShell loader script that has been protected from casual analysis with several layers of obfuscation.",
+    "label": "T1059"
+  },
+  {
+    "text": "Bandook has used PowerShell loaders as part of execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "KeyBoy uses Python scripts for installing files and performing execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "SQLRat has used SQL to execute JavaScript and VB scripts on the host system.",
+    "label": "T1059"
+  },
+  {
+    "text": "Chaes has used JavaScript and Node.Js information stealer script that exfiltrates data using the node process.",
+    "label": "T1059"
+  },
+  {
+    "text": "Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code.",
+    "label": "T1059"
+  },
+  {
+    "text": "OopsIE creates and uses a VBScript as part of its persistent execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "According to the server\u2019s code, the default command that it would issue to newly infected systems was a batch script contained in a file named 0000000000.bat",
+    "label": "T1059"
+  },
+  {
+    "text": "Molerats used various implants, including those built with VBScript, on target machines.",
+    "label": "T1059"
+  },
+  {
+    "text": "Hildegard has used shell scripts for execution.",
+    "label": "T1059"
+  },
+  {
+    "text": "SLOTHFULMEDIA can open a command line to execute commands.",
+    "label": "T1059"
+  },
+  { "text": "Dipsind can spawn remote shells.", "label": "T1059" },
+  {
+    "text": "APT41 executed file /bin/pwd in activity exploiting CVE-2019-19781 against Citrix devices.",
+    "label": "T1059"
+  },
+  { "text": "RDAT has executed commands using cmd.exe /c.", "label": "T1059" },
+  {
+    "text": "A Destover-like variant used by Lazarus Group uses a batch file mechanism to delete its binaries from the system.",
+    "label": "T1059"
+  },
+  { "text": "QUADAGENT uses VBScripts.", "label": "T1059" },
+  {
+    "text": "JSS Loader has the ability to download and execute PowerShell scripts.",
+    "label": "T1059"
+  },
+  {
+    "text": "QUADAGENT uses PowerShell scripts for execution.",
+    "label": "T1059"
+  }
+]
